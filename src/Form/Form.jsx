@@ -46,6 +46,13 @@ const Form = () => {
     } catch (error) {
       console.error("Error submitting form:", error);
     }
+
+    setFormData({
+      "entry.382577379": "", //Name
+      "entry.2013897788": "", //Mobile No.
+      "entry.1413525538": "", //Orders
+      "entry.1829566895": "", //Channels
+    });
   };
 
   return (

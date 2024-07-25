@@ -15,11 +15,9 @@ const Home = () => {
       </nav>
 
       <div className="flex flex-col sm:flex-row gap-4 sm:gap-8 align-middle content-center">
-        <div className=" sm:flex text-center sm:items-center">
-          {/* <img src={left} className='w-full h-auto max-w-xs sm:max-w-md' /> */}
-
-          <p className="text-center text-3xl sm:text-7xl ">
-            Building tech solutions for E-Commerce Sellers{" "}
+        <div className=" sm:flex text-center sm:items-center leading-relaxed sm:leading-loose">
+          <p className="text-center text-3xl sm:text-7xl">
+            Building Tech Products for E-Commerce Sellers{" "}
           </p>
         </div>
         <div className="basis-3/4">
